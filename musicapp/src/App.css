@@ -1,0 +1,24 @@
+.container {
+	background: linear-gradient(238deg, #2bcaa1, #b8ca2b, #ca412b);
+	background-size: 600% 600%;
+
+	-webkit-animation: AnimationName 2s ease infinite;
+	-moz-animation: AnimationName 2s ease infinite;
+	animation: AnimationName 2s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:73% 0%}
+	    50%{background-position:28% 100%}
+	    100%{background-position:73% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:73% 0%}
+	    50%{background-position:28% 100%}
+	    100%{background-position:73% 0%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:73% 0%}
+	    50%{background-position:28% 100%}
+	    100%{background-position:73% 0%}
+	}
+}
